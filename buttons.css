@@ -56,3 +56,21 @@
     height: 40px;
     width: 120px;
 }
+
+.buy-button {
+    background-color: orange;
+    color: black;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.inventory {
+    font-size: 20px;
+    color: rgb(49, 178, 49);
+}
+p {
+    font-size: 18px;
+}
