@@ -10,6 +10,16 @@
     margin-right: 8px;  /*Spacing between elements*/
 }
 
+/*psuedo css, adding styling when hovering*/
+.subscribe-button:hover {
+    background-color: green;
+}
+
+/*psuedo css, adding styling when active(clicking)*/
+.subscribe-button:active {
+    background-color: blue;
+}
+
 .join-button {
     background-color: white;
     border-color: rgb(40, 116, 249);
@@ -47,6 +57,23 @@
     margin: 8px;
 }
 
+.glowing-button {
+    background-color: cyan;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    height: 45px;
+    width: 165px;
+    box-shadow: o o 5px cyan,
+    0 0 25px cyan;
+}
+
+.glowing-button:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
 .addToCart-button {
     background-color: yellow;
     color: black;
@@ -71,6 +98,7 @@
     font-size: 20px;
     color: rgb(49, 178, 49);
 }
+
 p {
     font-size: 18px;
 }
