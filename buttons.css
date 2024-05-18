@@ -3,12 +3,16 @@
     background-color: rgb(200, 20, 20); /*background color*/
     color: white;   /*color of text*/
     border: none;   /*Kind of border*/
-    height: 40px;
-    width: 105px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    margin-right: 8px;  /*Spacing between elements*/
+    margin-left: 20px;
     border-radius: 2px; /*Curvature of border, the biger the number the rounder*/
     cursor: pointer;    /*Kind of cursor*/
-    margin-right: 8px;  /*Spacing between elements*/
     transition: opacity 0.15s;
+    vertical-align: top;
 }
 
 /*psuedo css, adding styling when hovering*/
@@ -27,13 +31,17 @@
     border-style: solid;
     border-width: 1px;
     color: rgb(40, 116, 249);
-    height: 40px;
-    width: 62px;
     border-radius: 2px;
     cursor: pointer;
-    margin-right: 8px;
     transition: background-color 0.15s,
     color 0.15s;
+    padding-left: 16px;
+    padding-top: 9px;
+    padding-right: 16px;
+    padding-bottom: 9px;
+    margin-right: 8px;  /*Spacing between elements*/
+    margin-left: 20px;
+    vertical-align: top;
 }
 
 .join-button:hover {
@@ -55,9 +63,15 @@
     width: 80px;
     font-weight: bold;
     font-size: 15px;
-    margin-left: 8px;
     cursor: pointer;
     transition: box-shadow 0.15s;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    margin-right: 8px;  /*Spacing between elements*/
+    margin-left: 20px;
+    vertical-align: top;
 }
 
 .tweet-button:hover {
