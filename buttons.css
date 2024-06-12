@@ -126,6 +126,17 @@
     font-size: 15px;
 }
 
+.subscribe-button {
+    color: red;
+    height: 35px;
+    width: 75px;
+    border: none;
+    border-radius: 4px;
+    outline: 1px;
+    outline-color: plum;
+    font-size: 14px;
+}
+
 .inventory {
     font-size: 20px;
     color: rgb(49, 178, 49);
