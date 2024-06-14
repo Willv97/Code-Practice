@@ -140,6 +140,18 @@
     font-size: 14px;
 }
 
+.help-button {
+    background-color: lightblue;
+    color: ghostwhite;
+    margin: 7px;
+    padding: 5px;
+    height: 40px;
+    width: 110px;
+    border: 2px;
+    border-color: darkorchid;
+    border-radius: 15px;
+
+}
 .inventory {
     font-size: 20px;
     color: rgb(49, 178, 49);
