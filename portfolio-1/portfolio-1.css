@@ -64,7 +64,7 @@ a:hover {
     cursor: default;
 }
 
-/*Hamburger menu*/
+/* Hamburger menu */
 
 #hamburger-nav {
     display: none;
@@ -84,8 +84,8 @@ a:hover {
     cursor: pointer;
 }
 
-/*Turns nav into hamburger/ 3 lines*/
-.hamburger-icon span {
+/* Turns nav into hamburger - 3 lines */
+.hamburger-icon span { 
     width: 100%;
     height: 2px;
     background-color: black;
@@ -145,7 +145,7 @@ a:hover {
     transform: none;
 }
 
-/*Sections*/
+/* Sections */
 
 section {
     padding-top: 4vh;
@@ -159,7 +159,7 @@ section {
     display: flex;
 }
 
-/*Profile Section*/
+/* Profile Section */
 
 #profile {
     display: flex;
@@ -205,14 +205,14 @@ section {
     gap: 1rem;
 }
 
-/*Icons*/
+/* Icons */
 
 .icon {
     cursor: pointer;
     height: 2rem;
 }
 
-/*Buttons*/
+/* Buttons */
 
 .btn-container {
     display: flex;
@@ -286,6 +286,7 @@ section {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+    /*Set arrow image to lower right side at all times*/
 }
 
 .details-container {
