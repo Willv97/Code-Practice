@@ -171,6 +171,11 @@
     height: 39px;
     width: 39px;
     margin: 7px;
+    border-radius: 40px;
+    outline: none;
+    border: 1rem;
+    font-size: 12px;
+    cursor: pointer;
 }
 
 p {
